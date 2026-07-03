@@ -1,2 +1,45 @@
-# aioc-ai-operations-center
-AIOC (AI Operations Center) is an AI-powered incident intelligence platform for engineering teams, combining FastAPI, React, PostgreSQL, RAG, local LLMs, semantic search, and agent-based workflows for root cause analysis and operational decision support.
+# AIOC — AI Operations Center
+
+AI-powered operational intelligence platform for incident analysis, root-cause detection, and operational knowledge retrieval using LLMs + RAG.
+
+## Problem
+Production incidents generate large volumes of logs, alerts, and runbooks.
+Manual root cause analysis is slow and expensive.
+
+AIOC accelerates incident triage using AI.
+
+## Features
+- Incident Management Dashboard
+- AI Root Cause Analysis
+- Semantic Knowledge Retrieval (RAG)
+- Multi-Agent Incident Pipeline
+- JWT Authentication + RBAC
+- Ollama-powered Local LLM Inference
+
+## Architecture
+Frontend (React + TS)
+→ FastAPI Backend
+→ PostgreSQL
+→ AI Engine
+→ RAG Layer
+→ Ollama LLM
+
+## Tech Stack
+Frontend:
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+
+Backend:
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+
+AI:
+- Ollama
+- Mistral / Llama
+- Embeddings
+- Vector Search
+- RAG
+- Multi-Agent Workflow
