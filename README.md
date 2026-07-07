@@ -1,4 +1,4 @@
-# AIOC — AI Operations Center
+# AIOC — AI Operations Center (NOTE: Working on it/not yet completed)
 
 AI-powered operational intelligence platform for incident analysis, root-cause detection, and operational knowledge retrieval using LLMs + RAG.
 
